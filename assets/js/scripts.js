@@ -4,7 +4,7 @@
 window.addEventListener('scroll', function() {
   const container = document.querySelector('.header-bottom');
 
-  if (window.scrollY > 15) {
+  if (window.scrollY > 0) {
     // Usuario ha comenzado a hacer scroll
     container.classList.add('active')
 
